@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("https://th-managment.com/img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+    background-size: cover;
+}
+.bodyback{
+    background: image('https://th-managment.com/img/bg.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.login-wrap{
+    background-color: rgba(38,43,54,.9);
+    width: 25rem;
+    height: 20rem;
+}
+.logo-header{
+    height: 3rem; 
+    width: 100%;
+}
+
+
+.center{
+    position: absolute;
+    top:44%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px){
+    .center {
+        position: absolute;
+        top:50%;
+        left:62%;
+
+    }
+    .login-wrap{
+        background-color: rgba(38,43,54,.9);
+    }
+    .logo-header{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:468px){
+    .center{
+        position: absolute;
+        top:50%;
+        left:45%;
+
+        
+    }
+    .login-wrap{
+        background-color: rgba(38,43,54,.9);
+        
+    }
+    .logo-header{
+        
+        width: 100%;
+    }
+    
+}
+
